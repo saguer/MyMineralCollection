@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/txt_mineral_name"
+                android:id="@+id/textView3"
+                android:gravity="center_vertical|center_horizontal" />
+
+            <mymineralcollection.example.org.mymineral.AddMineral.Autocomplete.CustomAutoCompleteView
+                android:id="@+id/item_autocomplete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:completionThreshold="1"
+                android:imeOptions="actionNext"
+                android:gravity="center_vertical|center_horizontal"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp">
+            </mymineralcollection.example.org.mymineral.AddMineral.Autocomplete.CustomAutoCompleteView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <ScrollView
+                android:layout_width="match_parent" android:layout_height="match_parent"
+                android:fillViewport="false"
+                android:id="@+id/id_CarSettings_ScrollView"
+                android:background="#b53636">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/id_CarSettingsMainLayout">
+                </LinearLayout>
+            </ScrollView>
+        </FrameLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddMineral.ImageCropper.ImageCropperFullscreenActivity"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/main_FrameLayout"
+        android:layout_weight="9">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/add_image_place_imageView"
+            android:adjustViewBounds="true"
+            android:layout_gravity="center"
+            android:background="@color/black_overlay" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/add_image_imageView"
+            android:adjustViewBounds="true"
+            android:layout_gravity="center"
+            android:background="@drawable/add_image_grey" />
+
+        <com.theartofdev.edmodo.cropper.CropImageView
+            xmlns:custom="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/cropImageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            custom:cropBorderLineColor="#212121"
+            custom:cropGuidelinesColor="#616161"
+            custom:cropBackgroundColor="#77472d30"
+            android:layout_gravity="center" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".25"
+        android:background="#000000"></FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/controlls_fragment"
+        android:background="#212121">
+
+    </FrameLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Options"
+            android:id="@+id/textView12"
+            android:gravity="center_vertical" />
+
+        <Switch
+            style="@style/ImageCropper.Borderless.Switch.ColoredText"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/menu_switch"
+            android:checked="false"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_gravity="left|center_vertical"
+            android:longClickable="false" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/menu_imageView"
+        android:layout_gravity="right|top"
+        android:src="@mipmap/ic_menu_alt" />
+
+
+</FrameLayout>

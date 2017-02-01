@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AutoFitTextViewLibrary/AutoFitTextViewLibrary.iml" filepath="$PROJECT_DIR$/AutoFitTextViewLibrary/AutoFitTextViewLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AutolabelLibrary/AutolabelLibrary.iml" filepath="$PROJECT_DIR$/AutolabelLibrary/AutolabelLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CarouselView/CarouselView.iml" filepath="$PROJECT_DIR$/CarouselView/CarouselView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CarouselViewSample/CarouselViewSample.iml" filepath="$PROJECT_DIR$/CarouselViewSample/CarouselViewSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Cropper/Cropper.iml" filepath="$PROJECT_DIR$/Cropper/Cropper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CropperSample/CropperSample.iml" filepath="$PROJECT_DIR$/CropperSample/CropperSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExpandableLayout/ExpandableLayout.iml" filepath="$PROJECT_DIR$/ExpandableLayout/ExpandableLayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExpandableLayoutSample/ExpandableLayoutSample.iml" filepath="$PROJECT_DIR$/ExpandableLayoutSample/ExpandableLayoutSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyMineralCollection.iml" filepath="$PROJECT_DIR$/MyMineralCollection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyViews/MyViews.iml" filepath="$PROJECT_DIR$/MyViews/MyViews.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyWebCrawler/MyWebCrawler.iml" filepath="$PROJECT_DIR$/MyWebCrawler/MyWebCrawler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CropperSample/sample.iml" filepath="$PROJECT_DIR$/CropperSample/sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExpandableLayoutSample/sample.iml" filepath="$PROJECT_DIR$/ExpandableLayoutSample/sample.iml" />
+    </modules>
+  </component>
+</project>

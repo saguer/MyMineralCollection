@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/FrameLayoutOverlay"
+    >
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:id="@+id/EditImageView"
+        android:layout_gravity="left|top"
+        android:src="@drawable/edit"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp" />
+</FrameLayout>
+
+

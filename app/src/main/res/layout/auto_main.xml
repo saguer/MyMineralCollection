@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <mymineralcollection.example.org.mymineral.AddMineral.Autocomplete.CustomAutoCompleteView
+        android:id="@+id/myautocomplete"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:completionThreshold="1"
+        android:imeOptions="actionNext">
+    </mymineralcollection.example.org.mymineral.AddMineral.Autocomplete.CustomAutoCompleteView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/test_textView"
+        android:layout_gravity="center_horizontal"
+        android:maxLines="4"
+        android:lines="4"/>
+
+</LinearLayout>

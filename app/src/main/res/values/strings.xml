@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">MyMineralCollection</string>
+    <string name="title_activity_add_mineral">AddMineralActivity</string>
+
+
+    <string name="txt_next_step">Next Step</string>
+    <string name="txt_loading_data">Debug: Loading Data in the Background</string>
+
+
+    <string name="txt_mineral_name">Mineral Name</string>
+    <string name="txt_add_picture">Add Picture</string>
+    <string name="txt_add_mineral_data">Add Mineral Data</string>
+
+    <string name="txt_mineral_props">Mineral Properties</string>
+    <string name="txt_save_mineral">Save Mineral</string>
+    <string name="txt_save">Save</string>
+
+
+    <string name="txt_with">With</string>
+    <string name="txt_and">And</string>
+    <string name="txt_on_matrix">Matrix</string>
+    <string name="txt_var">Var</string>
+    <string name="txt_none">None</string>
+    <string name="txt_on">On</string>
+    <string name="txt_cluster">Cluster</string>
+    <string name="txt_blank"> </string>
+
+    <string name="permissionSample"><![CDATA[Allow <b>%1$s</b> to show you a sample of a checkbox prompt?]]></string>
+    <string name="dont_ask_again">Don\'t ask again</string>
+
+    <string name="add_picture_txt">Please add a Picture of your mineral!</string>
+    <string name="add_a_image_txt">Add a Picture</string>
+    <string name="do_later_txt">Later</string>
+
+
+    <string name="please_wait_txt">Please Wait…</string>
+    <string name="loading_data_txt">Loading Data</string>
+
+
+    <string name="help_txt">Help</string>
+
+    <string name="help_edit_txt">Edit Mineral Property</string>
+
+    <string name="help_property_expanded_txt">Property Expanded</string>
+    <string name="help_property_contracted_txt">Property Contracted</string>
+
+    <string name="do_not_show_again_txt">Don\'t Show Again</string>
+
+
+    <string name="mineral_in_collection_txt">Mineral in Collection</string>
+
+    <string name="title_activity_start_activity_fullscreen">StartActivityFullscreen</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="title_activity_image_cropper_fullscreen">ImageCropperFullscreenActivity</string>
+
+    <!-- Menus -->
+
+    <string name="fixed_aspect_ratio">Fixed Aspect Ratio</string>
+    <string name="aspect_ratio">Change Aspect Ratio</string>
+
+
+    <string name="set_guidelines">Guidelines</string>
+    <string name="set_guidelines_OFF">Off</string>
+    <string name="set_guidelines_ON_TOUCH">When Touched</string>
+    <string name="set_guidelines_ON">On</string>
+
+    <string name="title_activity_fullscreen_activity_test">FullscreenActivity_test</string>
+    <string name="rotate_cw">Rotate CW</string>
+    <string name="rotate_ccw">Rotate CCW</string>
+
+    <string name="save">Save</string>
+    <string name="save_as">Save As</string>
+
+    <string name="crop">Crop</string>
+    <string name="crop_again">+ Crop</string>
+    <string name="crop_undo">Undo Crop</string>
+    <string name="choose_img">Choose Image</string>
+    <string name="add_another_img">Add Another Image</string>
+
+
+    <string name="keep_prev_img">Keep Previews Image</string>
+
+    <string name="keep_prev_img_dialog">Erase the previews images?</string>
+    <string name="title_activity_add_mineral_main">AddMineralMain</string>
+
+
+    <string name="mineral_origin_txt">Mineral Origin</string>
+    <string name="date_purchased_txt">Date Purchased</string>
+    <string name="purchased_location_txt">Purchase Location</string>
+    <string name="purchased_price_txt">Purchase Price</string>
+    <string name="mineral_notes_txt">Mineral Notes</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_edit_image">Edit Image</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="title_activity_mineral_activitynfo">MineralActivitynfo</string>
+    <string name="title_activity_load_activity_v2">LoadActivity_v2</string>
+    <string name="title_activity_start">StartActivity</string>
+
+</resources>

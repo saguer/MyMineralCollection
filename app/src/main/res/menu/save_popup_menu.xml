@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ImageCropperFullscreenActivity="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/cropper_save"
+        android:orderInCategory="300"
+        android:title="@string/save"
+        android:icon="@mipmap/save"
+        ImageCropperFullscreenActivity:showAsAction="never"/>
+
+    <item
+        android:id="@+id/cropper_save_as"
+        android:orderInCategory="350"
+        android:title="@string/save_as"
+        android:icon="@mipmap/save_as"
+        ImageCropperFullscreenActivity:showAsAction="never"/>
+
+
+</menu>

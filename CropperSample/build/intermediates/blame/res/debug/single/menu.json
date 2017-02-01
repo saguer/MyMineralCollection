@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\Android\\ANDROID\\MyMineralCollection\\CropperSample\\build\\intermediates\\res\\merged\\debug\\menu\\crop_image_menu.xml",
+        "source": "D:\\Android\\ANDROID\\MyMineralCollection\\CropperSample\\build\\intermediates\\exploded-aar\\MyMineralCollection\\Cropper\\unspecified\\res\\menu\\crop_image_menu.xml"
+    },
+    {
+        "merged": "D:\\Android\\ANDROID\\MyMineralCollection\\CropperSample\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "D:\\Android\\ANDROID\\MyMineralCollection\\CropperSample\\src\\main\\res\\menu\\main.xml"
+    }
+]

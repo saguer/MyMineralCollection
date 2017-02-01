@@ -1,0 +1,1 @@
+include ':app', ':AutolabelLibrary', ':AutoFitTextViewLibrary', ':CropperSample', ':Cropper', ':ExpandableLayoutSample', ':ExpandableLayout', ':CarouselViewSample', ':CarouselView', ':MyViews', ':MyWebCrawler'

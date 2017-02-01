@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_toStartOf="@+id/main_frameLayout">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Edit: "
+                    android:id="@+id/crop_textView" />
+
+                <Switch
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/crop_enable_switch"
+                    android:checked="false" />
+
+                <Button
+                    style="@style/ImageCropper.Borderless.Button.ColoredText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Crop"
+                    android:id="@+id/crop_button"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:layout_gravity="left|center_vertical"
+                    android:theme="@style/MyButtonActionBar"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/undo_imageView"
+                    android:layout_gravity="left|center_vertical"
+                    android:src="@drawable/undo_blue" />
+
+                <Button
+                    style="@style/ImageCropper.Borderless.Button.ColoredText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/choose_img"
+                    android:id="@+id/choose_button"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:layout_gravity="center"
+                    android:theme="@style/MyButtonActionBar"
+                    android:layout_weight="1" />
+
+                <Button
+                    style="@style/ImageCropper.Borderless.Button.ColoredText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/save"
+                    android:id="@+id/save_opt_button"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:layout_gravity="center_vertical|right"
+                    android:theme="@style/MyButtonActionBar"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/main_frameLayout"
+            android:layout_gravity="right"
+            android:layout_alignParentEnd="true">
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:id="@+id/menu_imageView"
+                android:src="@drawable/ic_menu_alt_test"
+                android:scaleType="fitXY"
+                android:layout_gravity="left|center_vertical" />
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<net.opacapp.multilinecollapsingtoolbar.CollapsingToolbarLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:id="@+id/multiline_collapsing_toolbar"
+    app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+<com.synnapps.carouselview.CarouselView
+    android:id="@+id/carouselView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:autoPlay="false"
+    app:indicatorGravity="top|center_horizontal"
+    app:fillColor="#33b5e5"
+    app:pageColor="#00000000"
+    app:radius="6dp"
+    app:slideInterval="3000"
+    app:strokeColor="#FF777777"
+    app:strokeWidth="1dp"/>
+
+
+    <include layout="@layout/tool_bar"/>
+
+<!--
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scaleType="centerCrop"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/add_crop"
+    android:id="@+id/profile_id"
+    app:layout_collapseMode="parallax" />
+
+It's here just for reference, if it is used the CollapsingToolbarLayout tittle
+will not appear.
+<include
+    layout="@layout/tool_bar"
+    />
+     <include layout="@layout/tool_bar"/>
+-->
+<android.support.v7.widget.Toolbar
+    android:id="@+id/myToolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    app:layout_collapseMode="pin" >
+
+
+</android.support.v7.widget.Toolbar>
+
+
+</net.opacapp.multilinecollapsingtoolbar.CollapsingToolbarLayout>

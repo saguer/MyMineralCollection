@@ -1,0 +1,37 @@
+    <menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".NOT_USED.REF.old.ImageCropperFullscreenActivity_old"
+    xmlns:ImageCropperFullscreenActivity="http://schemas.android.com/apk/res-auto" >
+
+
+
+    <item
+        android:title="@string/fixed_aspect_ratio"
+        android:id="@+id/cropper_fixedAspectRatio"
+        android:orderInCategory="400"
+        ImageCropperFullscreenActivity:showAsAction="never"/>
+
+    <item
+        android:title="@string/set_guidelines"
+        android:id="@+id/cropper_guidelines"
+        android:orderInCategory="500"
+        ImageCropperFullscreenActivity:showAsAction="never"/>
+
+
+        <!-- More
+        <item
+            android:id="@+id/a_More"
+            ImageCropperFullscreenActivity:showAsAction="ifRoom|withText"
+            android:title="Rotate">
+
+
+            <menu>
+
+
+
+            </menu>
+        </item>
+-->
+
+</menu>
+

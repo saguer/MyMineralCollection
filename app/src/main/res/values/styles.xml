@@ -1,0 +1,182 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. Theme.AppCompat.NoActionBar -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light">
+        <!-- Customize your theme here. -->
+
+        <item name="android:colorPrimary" tools:targetApi="lollipop">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark" tools:targetApi="lollipop">@color/colorPrimaryDark
+        </item>
+        <item name="android:colorAccent" tools:targetApi="lollipop">@color/colorAccent</item>
+
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <style name="Theme.AppCompat.Translucent">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+    </style>
+
+    <style name="Translucent" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+    </style>
+
+
+    <style name="AppCompatNoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+
+    <style name="NoActionBarFullScreen" parent="AppTheme">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="FullscreenTheme" parent="AppTheme">
+        <item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+    </style>
+
+    <style name="FullscreenActionBarStyle" parent="android:Widget.Holo.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+
+
+
+    <style name="NoTitleText">
+        <item name="android:textSize">0sp</item>
+        <item name="android:textColor">#00000000</item>
+    </style>
+
+    <!-- Buttons Styles -->
+    <!--
+    style="@style/Widget.AppCompat.Button"
+    style="@style/Widget.AppCompat.Button.Colored"
+    style="@style/Widget.AppCompat.Button.Borderless"
+    style="@style/Widget.AppCompat.Button.Borderless.Colored"
+    -->
+
+    <style name="myTest" parent="Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@color/lt_Green</item>
+        <item name="android:textColor">@color/black_overlay</item>
+    </style>
+
+    <style name="MyButton" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/dk_Indigo</item>
+        <item name="colorButtonNormal">@color/Indigo</item>
+        <item name="android:textColorPrimary">@color/Grey_300</item>
+    </style>
+
+    <style name="MyButtonActionBar" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/dk_Indigo</item>
+        <item name="colorButtonNormal">#01579B</item>
+        <item name="android:textColorPrimary">@color/Grey_300</item>
+    </style>
+
+    <style name="PopupMenu" parent="@android:style/Widget.PopupMenu">
+        <item name="android:popupBackground">@color/black_overlay</item>
+    </style>
+
+    <!--                -->
+
+    <style name="ImageCropper" parent="Theme.AppCompat">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBarOverlay">false</item>
+
+
+
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:windowActionBar">false</item>
+
+        <!-- AppCompat Attributes
+
+                <item name="android:titleTextStyle">@style/NoTitleText</item>
+        <item name="android:subtitleTextStyle">@style/NoTitleText</item>
+
+        <item name="colorPrimary">#4CAF50</item>
+        <item name="colorPrimaryDark">#388E3C</item>
+        <item name="colorAccent">#00C853</item>
+-->
+
+        <!-- AppCompat Control Attributes -->
+        <!-- Other control states (not in this example)
+        <item name="colorButtonNormal">@color/material_green_500</item>
+        <item name="colorControlNormal">@color/material_green_500</item>
+        <item name="colorControlActivated">@color/material_green_500</item>
+        <item name="colorControlHighlight">@color/selector_green_pressed</item>
+        -->
+
+        <!-- AppCompat Dialog Attributes
+        <item name="dialogTheme">@style/AppTheme.Dialog.Green</item>
+        <item name="alertDialogTheme">@style/AppTheme.Dialog.Alert.Green</item>
+
+                <item name="colorControlActivated">#00C853</item>
+
+        -->
+        <item name="colorControlNormal">@color/Grey_300</item>
+        <item name="colorControlActivated">#002bd9</item>
+    </style>
+
+    <style name="ImageCropper.Borderless.Button.ColoredText" parent="Widget.AppCompat.Button.Borderless.Colored">
+        <item name="colorControlHighlight">#002bd9</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+
+    <style name="ImageCropper.Borderless.Switch.ColoredText" parent="Widget.AppCompat.CompoundButton.Switch">
+        <item name="colorControlHighlight">#002bd9</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+
+
+    <!-- Base application theme. -->
+    <style name="DisplayMineralTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBarOverlay">false</item>
+
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:windowActionBar">false</item>
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+
+    </style>
+
+    <style name="expandedappbar" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="collapsedappbar" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+
+    <!-- Green App Theme
+    <style name="ImageCropper.Theme" parent="Theme.AppCompat.Light.DarkActionBar">
+        -->
+
+</resources>

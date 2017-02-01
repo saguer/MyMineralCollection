@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <LinearLayout
+        android:id="@+id/tittleLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:padding="8dp"
+        android:textColor="@color/text_color"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:id="@+id/expand_imageView"
+            android:src="@drawable/top_right_expand" />
+
+        <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/text_color"
+        android:text="TextView"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:id="@+id/expand_arrow_imageView"
+            android:src="@drawable/up_arrow_medium" />
+
+    </LinearLayout>
+
+    <com.github.aakira.expandablelayout.ExpandableLinearLayout
+        android:id="@+id/expandableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tittleLayout"
+        android:orientation="vertical"
+        app:ael_duration="400"
+        app:ael_expanded="false"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <org.sufficientlysecure.htmltextview.HtmlTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:padding="16dp"
+
+                    android:textColor="@color/text_color"
+                    android:textSize="16sp"
+                    android:id="@+id/data_textview"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="left|center_horizontal"
+                    android:layout_marginRight="20dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </com.github.aakira.expandablelayout.ExpandableLinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/inputMineral_LinearLayout">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/txt_mineral_name"
+                android:id="@+id/textView3"
+                android:gravity="center_vertical|center_horizontal" />
+
+            <mymineralcollection.example.org.mymineral.AddMineral.Autocomplete.CustomAutoCompleteView
+                android:id="@+id/item_autocomplete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:completionThreshold="1"
+                android:imeOptions="actionNext"
+                android:gravity="center_vertical|center_horizontal"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp">
+            </mymineralcollection.example.org.mymineral.AddMineral.Autocomplete.CustomAutoCompleteView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_dynamic"
+            android:id="@+id/control_LinearLayout">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+
+                <mymineralcollection.example.org.mymineral.AutoResizeTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:ellipsize="none"
+                    android:maxLines="1"
+                    android:text="Medium Text"
+                    android:id="@+id/mineralName_textView"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical|center_horizontal" />
+
+
+            </FrameLayout>
+
+                <mymineralcollection.example.org.mymineral.AddMineral.AddMineralList.Fragment.ToggleButtonGroupTableLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/mineralExtra_ToggleButtonGroupTableLayout">
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:id="@+id/matrix_rad"
+                            android:text="@string/txt_on_matrix"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:background="@drawable/shape_dynamic"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_weight="1"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:gravity="center_vertical|center_horizontal" />
+                        <TextView
+                            android:id="@+id/var_rad"
+                            android:text="@string/txt_var"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:background="@drawable/shape_dynamic"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_weight="1"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:gravity="center_vertical|center_horizontal" />
+                        <TextView
+                            android:id="@+id/cluster_rad"
+                            android:text="Cluster"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:background="@drawable/shape_dynamic"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_weight="1"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:gravity="center_vertical|center_horizontal" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:id="@+id/with_rad"
+                            android:text="@string/txt_with"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:background="@drawable/shape_dynamic"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_weight="1"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:gravity="center_vertical|center_horizontal" />
+                        <TextView
+                            android:id="@+id/on_rad"
+                            android:text="@string/txt_on"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:background="@drawable/shape_dynamic"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_weight="1"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:gravity="center_vertical|center_horizontal" />
+                        <TextView
+                            android:id="@+id/and_rad"
+                            android:text="@string/txt_and"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:background="@drawable/shape_dynamic"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_weight="1"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:gravity="center_vertical|center_horizontal" />
+                    </TableRow>
+
+
+                </mymineralcollection.example.org.mymineral.AddMineral.AddMineralList.Fragment.ToggleButtonGroupTableLayout>
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp" >
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <FrameLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="5dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Update"
+                            android:id="@+id/update_textView"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:layout_gravity="center"
+                            android:background="@drawable/item_border_round_dynamic" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Add"
+                            android:id="@+id/add_textView"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:layout_gravity="center"
+                            android:background="@drawable/item_border_round_dynamic" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Delete"
+                            android:id="@+id/delete_textView"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:background="@drawable/item_border_round_dynamic"
+                            android:layout_gravity="center" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Cancel"
+                            android:id="@+id/cancel_textView"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:layout_gravity="center"
+                            android:background="@drawable/item_border_round_dynamic" />
+                    </FrameLayout>
+
+                </LinearLayout>
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

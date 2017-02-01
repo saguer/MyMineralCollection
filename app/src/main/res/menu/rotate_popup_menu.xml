@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:ImageCropperFullscreenActivity="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/cropper_rotate_cw"
+        android:orderInCategory="300"
+        android:title="@string/rotate_cw"
+        android:icon="@mipmap/rotate_right_blue"
+        ImageCropperFullscreenActivity:showAsAction="never"/>
+    <item
+        android:id="@+id/cropper_rotate_ccw"
+        android:orderInCategory="350"
+        android:title="@string/rotate_ccw"
+        android:icon="@mipmap/rotate_left_blue"
+        ImageCropperFullscreenActivity:showAsAction="never"/>
+
+</menu>
